@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "271733469913",
+    "project_id": "maxiruta-6867f",
+    "storage_bucket": "maxiruta-6867f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271733469913:android:5d9ff1fc4072719d5ec4c8",
+        "android_client_info": {
+          "package_name": "com.tuapp.maxiruta"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSSuaZdBVydw3TYs7CNoSexKej2A83SaU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

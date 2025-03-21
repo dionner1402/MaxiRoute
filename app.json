@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "MaxiRuta",
+    "slug": "maxiruta",
+    "version": "1.0.0",
+	 "newArchEnabled": true,
+    "platforms": ["ios", "android", "web"],
+	
+    "splash": {
+      "image": "./assets/logo_inicio.png",
+      "backgroundColor": "#1A2028",
+      "resizeMode": "cover",
+	  "tabletImage": "./assets/logo_inicio-tablet.png"
+    },
+	
+	
+    "ios": {
+      "bundleIdentifier": "com.maxiruta.app",
+      "buildNumber": "1.0.0",
+      "config": {
+        "googleServicesFile": "./GoogleService-Info.plist"
+      }
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "package": "com.tuapp.maxiruta",
+      "versionCode": 1,
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "FOREGROUND_SERVICE",
+        "INTERNET",
+        "NOTIFICATIONS"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyB-hUb_4P77cc3EXmTLMLHCAO5qzi3I1FQ"
+        }
+      }
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "extra": {
+      "newArchEnabled": true,
+      "eas": {
+        "projectId": "3d6da7ef-8d57-46f2-8603-5cc571770ba7"
+      },
+      "notification": {
+        "icon": "./assets/icon.png",
+        "color": "#000000"
+      }
+    }
+  }
+}
